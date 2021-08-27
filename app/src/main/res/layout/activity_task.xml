@@ -12,7 +12,8 @@
         android:id="@+id/editTaskName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Enter Task Name here"
+        android:text="Pankaj"
+        android:hint="@string/enter_task_name_here"
         android:inputType="textPersonName"
          />
 
@@ -22,5 +23,5 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:text="Add To Task" />
+        android:text="@string/add_to_task" />
 </LinearLayout>

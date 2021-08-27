@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RecyclerViewUserInput</string>
+    <string name="enter_task_name_here">Enter Task Name here</string>
+    <string name="add_to_task">Add To Task</string>
 </resources>

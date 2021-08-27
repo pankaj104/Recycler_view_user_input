@@ -21,7 +21,7 @@ class Adapter(val context: Context, val itemList : ArrayList<String>): RecyclerV
     // and viewholder hold view(means single row xml view )
 class SampleViewHolder (view: View): RecyclerView.ViewHolder(view)
     {
-    val textView: TextView= view.findViewById(R.id.txtRecyclerRowItem)
+    val rowtextView: TextView= view.findViewById(R.id.txtRecyclerRowItem)
 }
 
 //  1.  create class of onCreateViewHolder
@@ -53,7 +53,7 @@ class SampleViewHolder (view: View): RecyclerView.ViewHolder(view)
 
         val text= itemList[position]
         //for hold the text view and each item new text view
-        holder.textView.text= text
+        holder.rowtextView.text= text
 
     }
 
